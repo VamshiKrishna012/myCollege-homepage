@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text&family=Dancing+Script:wght@700&family=Encode+Sans&family=Montserrat&family=Rajdhani&display=swap');
+
+
+.navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-between;
+    
+}
+.active {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-right {
+    color: #fff;
+}
+
+.nav-element:hover {
+    color: #f00 !important;
+    transform: scale(1.09);
+}
+
+.welcome-carousel {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.welcome-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: fit-content;
+}
+
+.home-page {
+    padding-top: 50px;
+}
+
+.home-h1 {
+    text-align: center;
+    color: #111d5e;
+    font-family: 'DM Serif Text', serif;
+    padding-top: 30px;
+}
+
+.home-p{
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Encode Sans', sans-serif;;
+}
+
+.home-card {
+    border: #111d5e 2px solid;
+    margin: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.home-card:hover {
+    border: rgb(245, 90, 90) 1px solid !important;
+    background-color: whitesmoke;
+    transform: scale(1.09);
+}
+.home-card-img {
+    height: 50px;
+    text-align: center;
+}
+
+.left-card {
+    
+    width: 40%;
+}
+.right-card {
+    
+    width: 40%;
+}
